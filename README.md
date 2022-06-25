@@ -76,35 +76,48 @@ Role: Client
 
 API has following endpoints
 
-## User Registration: `POST /auth/signup`
-
-### Request
+## User Registration: 
 ```
-curl -X 'POST' \
-  'http://localhost:5000/auth/signup' \
-  -H 'accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "id": 0,
-  "username": "test3",
-  "email": "test3@g.com",
-  "password": "test3"
-}'
-```
-### Response
-
-```
-{
-  "id": 6,
-  "username": "test3",
-  "email": "test3@g.com",
-  "password_hash": null,
-  "email_verified": false,
-  "is_admin": false
-}
+POST /auth/signup
 ```
 
 ## User Login
+```
+POST /auth/login
+```
+
+## 🔓 User fetches own profile
+```
+GET /clients/profile
+```
+
+## 🔓 Generate Email verification link
+```
+GET /clients/verify/{client_username}
+```
+
+## 🔓 Confirm Email with link
+```
+GET /clients/confirm_email/{unique_token}
+```
+
+## 🔓🔓 Admin user list all users
+```
+GET /admin/listusers
+```
+
+## 🔓🔓 Admin fetch one single user's details
+```
+GET /admin/profile/{username}
+```
+
+## 🔓🔓 Admin Changing user's profile access (Enable/Disable)
+```
+POST /admin/profile/access
+```
+
+
+
 
 
 
