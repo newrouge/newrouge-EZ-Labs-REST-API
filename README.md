@@ -74,7 +74,38 @@ Role: Client
 
 # API Endpoints 
 
-## unlock User Registration
+API has following endpoints
+
+## User Registration: `POST /auth/signup`
+
+### Request
+```
+curl -X 'POST' \
+  'http://localhost:5000/auth/signup' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "id": 0,
+  "username": "test3",
+  "email": "test3@g.com",
+  "password": "test3"
+}'
+```
+### Response
+
+```
+{
+  "id": 6,
+  "username": "test3",
+  "email": "test3@g.com",
+  "password_hash": null,
+  "email_verified": false,
+  "is_admin": false
+}
+```
+
+## User Login
+
 
 
 
