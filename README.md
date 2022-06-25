@@ -28,12 +28,24 @@ cd newrouge-EZ-Labs-REST-API
 
 ```
 python3 -m venv flask
-
 source flask/bin/activate
-
 pip install -r requirements.txt
 ```
 
+# Test credentials
+
+```
+Username: admin
+Email: admin@ez.com
+Password: admin
+Role: Admin
+```
+```
+Username: string
+Email: string@gmail.com
+Password: string
+Role: Client
+```
 
 
 
