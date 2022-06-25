@@ -1,6 +1,6 @@
 # EZ-Labs-REST-API
 
-This project is demonstrate a REST API implementation for EZ Labs user management with following features
+This project is to demonstrate a REST API implementation for EZ Labs user management with following features
 
 ## Operation/Admin User
 
