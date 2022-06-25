@@ -101,24 +101,20 @@ GET /clients/verify/{client_username}
 GET /clients/confirm_email/{unique_token}
 ```
 
-## 🔓🔓 Admin user list all users
+## 🔐 Admin user list all users
 ```
 GET /admin/listusers
 ```
 
-## 🔓🔓 Admin fetch one single user's details
+## 🔐 Admin fetch one single user's details
 ```
 GET /admin/profile/{username}
 ```
 
-## 🔓🔓 Admin Changing user's profile access (Enable/Disable)
+## 🔐 Admin Changing user's profile access (Enable/Disable)
 ```
 POST /admin/profile/access
 ```
-
-
-
-
 
 
 
