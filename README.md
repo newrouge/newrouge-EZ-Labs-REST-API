@@ -72,5 +72,10 @@ Password: string
 Role: Client
 ```
 
+# API Endpoints 
+
+## unlock User Registration
+
+
 
 
