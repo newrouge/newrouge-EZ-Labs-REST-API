@@ -7,6 +7,7 @@ This project is to demonstrate a REST API implementation for EZ Labs user manage
 Actions available to user (Already created in the system)
 1. Login
 2. Disable or Enable a client from accessing his/her account
+3. Fetch All user's data
 
 ## Client User
 
